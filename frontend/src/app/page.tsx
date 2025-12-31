@@ -23,7 +23,7 @@ export default function HomePage() {
         <ServicesSection />
 
         {/* How We Work */}
-        <section className="mt-24 border-t pt-16">
+        <section className="mt-4 border-t pt-16">
           <h2 className="text-2xl font-semibold tracking-tight">
             How We Work
           </h2>

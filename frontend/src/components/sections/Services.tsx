@@ -8,6 +8,8 @@ export function ServicesSection() {
           <li>• SaaS product development</li>
           <li>• Hospitality & business systems consulting</li>
           <li>• System architecture & process automation</li>
+          <li>• Finance & HR systems consulting</li>
+          <li>• Project Managment</li>
         </ul>
       </section>
     );
