@@ -11,24 +11,25 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <Container>
-      <div className="py-20 max-w-4xl">
-        <h1 className="text-3xl font-semibold tracking-tight">
+      <div className="py-16 sm:py-20 max-w-4xl">
+        {/* Page header */}
+        <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight leading-tight">
           Services
         </h1>
 
-        <p className="mt-4 text-slate-600 leading-relaxed">
+        <p className="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed max-w-2xl">
           In addition to building our own software products, SOHUMBIT provides
           software development and consulting services for organizations that
           require reliable, production-ready systems built for long-term use.
         </p>
 
         {/* Service 1 */}
-        <div className="mt-12 rounded-2xl border p-8">
-          <h2 className="text-xl font-semibold">
+        <div className="mt-10 rounded-2xl border p-5 sm:p-8">
+          <h2 className="text-lg sm:text-xl font-semibold leading-snug">
             Custom Software Development
           </h2>
 
-          <p className="mt-3 text-slate-600 leading-relaxed">
+          <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed">
             We design and build custom software systems tailored to real business
             operations not demos or throwaway prototypes.
           </p>
@@ -42,14 +43,14 @@ export default function ServicesPage() {
         </div>
 
         {/* Service 2 */}
-        <div className="mt-8 rounded-2xl border p-8">
-          <h2 className="text-xl font-semibold">
+        <div className="mt-8 rounded-2xl border p-5 sm:p-8">
+          <h2 className="text-lg sm:text-xl font-semibold leading-snug">
             SaaS Product Development
           </h2>
 
-          <p className="mt-3 text-slate-600 leading-relaxed">
-            We help founders and organizations build scalable SaaS products 
-            from early-stage MVPs to stable, production-grade platforms.
+          <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed">
+            We help founders and organizations build scalable SaaS products from
+            early-stage MVPs to stable, production-grade platforms.
           </p>
 
           <ul className="mt-4 space-y-2 text-sm text-slate-700">
@@ -61,12 +62,12 @@ export default function ServicesPage() {
         </div>
 
         {/* Service 3 */}
-        <div className="mt-8 rounded-2xl border p-8">
-          <h2 className="text-xl font-semibold">
+        <div className="mt-8 rounded-2xl border p-5 sm:p-8">
+          <h2 className="text-lg sm:text-xl font-semibold leading-snug">
             IT Consulting & System Design
           </h2>
 
-          <p className="mt-3 text-slate-600 leading-relaxed">
+          <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed">
             We provide technical consulting to help organizations plan, review,
             and improve their software systems and internal workflows.
           </p>
@@ -80,12 +81,12 @@ export default function ServicesPage() {
         </div>
 
         {/* Service 4 */}
-        <div className="mt-8 rounded-2xl border p-8">
-          <h2 className="text-xl font-semibold">
+        <div className="mt-8 rounded-2xl border p-5 sm:p-8">
+          <h2 className="text-lg sm:text-xl font-semibold leading-snug">
             Product & Project Management
           </h2>
 
-          <p className="mt-3 text-slate-600 leading-relaxed">
+          <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed">
             We offer structured product and project management for teams building
             complex software systems, ensuring clarity, alignment, and predictable
             delivery.
@@ -99,7 +100,7 @@ export default function ServicesPage() {
           </ul>
         </div>
 
-        <div className="mt-12 text-sm text-slate-500">
+        <div className="mt-12 text-sm text-slate-500 max-w-2xl">
           For service inquiries or partnership discussions, please contact us via
           email.
         </div>
